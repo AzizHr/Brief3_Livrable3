@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <!-- Start Navbar-->
+    <nav id="nav">
+        <div class="navbar">
+            <div class="navbar-logo"><img src="./images/logo.svg" alt=""></div>
+            <div class="nav-menu" id="nav_menu">
+                <ul>
+                    <li><a href="accueil.html">Accueil</a></li>
+                    <li><a href="carte.html">Carte</a></li>
+                    <li><a href="a_propos.html">A propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu"><img id="nav_menu_icon" src="./images/icons8-menu-50 (1).png" alt=""></div>
+        </div>
+    </nav>
+     <!-- End Navbar-->
+
+    <div class="contact">
+        <div class="contact-info">
+            <h1>Contact us now</h1>
+            <p>if you have a question , problem
+                or anything please contact us by
+                fill in the form below</p>
+        </div>
+        <div class="contact-image">
+            <img src="images/contact_us_image.jpg" alt="">
+        </div>
+    </div>
+
+    <form method="post" class="contact-form">
+        <div class="nom item">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" required>
+        </div>
+        <div class="prenom item">
+            <label for="prenom">Prenom</label>
+            <input type="text" id="prenom" required>
+        </div>
+        <div class="email item">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+        </div>
+        <div class="telephone item">
+            <label for="telephone">Telephone</label>
+            <input type="text" id="telephone" required>
+        </div>
+        <div class="message item">
+            <label for="message">Message</label>
+            <textarea name="" id="message" cols="30" rows="10" required></textarea>
+        </div>
+        <button type="submit" class="envoyer" id="send">Envoyer</button>
+    </form>
+    <!-- Start Footer-->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <h2>WHY CHOOSE</h2>
+                <div>
+                    <h1>SUSHI</h1>
+                    <h4>BREAK</h4>
+                </div>
+            </div>
+            <div class="advantages">
+                <div class="advantage">
+                    <img src="images/icons8-done-30.png" alt="">
+                    <h4>Deliver for free</h4>
+                </div>
+                <div class="advantage">
+                    <img src="images/icons8-done-30.png"" alt="">
+                    <h4>Accept all pay methods</h4>
+                </div>
+                <div class="advantage">
+                    <img src="images/icons8-x-30.png" alt="">
+                    <h4>Wasting your time</h4>
+                </div>
+                <div class="advantage">
+                    <img src="images/icons8-done-30.png"" alt="">
+                    <h4>A free order for new clients</h4>
+                </div>
+                <div class="advantage">
+                    <img src="images/icons8-done-30.png"" alt="">
+                    <h4>-30% for wedding & birthdays parties</h4>
+                </div>
+            </div>
+            <div class="offer">
+                <h2>ORDER NOW TO GET A SPECIAL OFFER</h2>
+                <button>Order Now</button>
+                <div class="icons">
+                    <img src="images/icons8-facebook-40.png" alt="">
+                    <img src="images/icons8-twitter-40.png" alt="">
+                    <img src="images/icons8-instagram-40.png" alt="">
+                    <img src="images/icons8-linkedin-circled-40.png" alt="">
+                </div>
+            </div>
+            <p class="copyright">&copy; 2022 SUSHI BREAK ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+    <!-- End Footer-->
+    <script src="/js/script.js"></script>
+    <script src="/js/contact.js"></script>
+</body>
+</html>

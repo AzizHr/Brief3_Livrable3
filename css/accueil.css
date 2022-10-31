@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.background-image{
+    width: 100%;
+    background-image: url('/images/background_image1.jpg');
+    background-size: contain;
+    height: 600px;
+}
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin: 0 16px;
+    list-style: none;
+}
+ul li a{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.menu{
+    display: none;
+}
+.body{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.body .title{
+    color: white;
+    font-size: 56px;
+}
+.body .title-friend{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-top: 6px;
+    word-spacing: 10px;
+}
+.body .buttons{
+    display: flex;
+    margin-top: 60px;
+    gap: 6px;
+}
+.body .buttons .get-to-know-us{
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+}
+.body .buttons .order-now{
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+.what-we-do{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+.what-we-do h1{
+    font-size: 34px;
+}
+.what-we-do p{
+    font-size: 22px;
+    position: relative;
+    top: 12px;
+}
+.what-we-make{
+    top: 120px;
+    font-size: 28px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}.cards{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    position: relative;
+    top: 240px;
+    
+}
+.cards .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+
+}
+.cards .card .card-image{
+    width: 100%;
+    border-radius: 10px;
+}
+.cards .card .card-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.our-clients-reviews{
+    text-align: center;
+    position: relative;
+    top: 400px;
+}
+.reviews{
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    column-gap: 40px;
+    row-gap: 60px;
+    margin-top: 460px;
+    padding-bottom: 160px;
+}
+.reviews .review{
+    display: flex;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    border-radius: 10px;
+    justify-content: flex-start;
+    padding: 0 20px;
+    box-shadow: 0px 0px 10px 0px rgb(131, 129, 129);
+}
+.reviews .review .review-image{
+    border-radius: 8px;
+    width: 110px;
+    height: 110px;
+}
+.reviews .review .review-image img{
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+}
+.reviews .review .review-info .review-description{
+    margin-left: 14px;
+    margin-top: 4px;
+}
+footer{
+    background-color: #4A4A4A;
+}
+footer .container{
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    color: white;
+    padding-top: 26px;
+    row-gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+footer .container .footer-top{
+    grid-column: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 20px;
+}
+
+.offer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.offer h2{
+    line-height: 36px;
+}
+.offer .icons{
+    display: flex;
+    column-gap: 30px;
+}
+.offer button{
+    align-self: flex-start;
+    width: 140px;
+    height: 44px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.advantages{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.advantage{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+
+}
+.copyright{
+    grid-column: 1 / 3;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+    color: #D0D0D0;
+}
+@media (max-width:768px) {
+    .background-image{
+        height: 520px;
+    }
+    .nav-menu{
+        position: absolute;
+        margin-top: 80px;
+        height: 400px;
+        top: 0;
+        right: 0;
+        left: 0;
+        display: block;
+        background-image: url('/images/background_image1.jpg');
+        background-size: contain;
+        padding-top: 80px;
+        display: none;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .menu{
+        display: block;
+    }
+    .body .title{
+        font-size: 38px;
+        margin-top: 20px;
+    }
+    .body .title-friend{
+        font-size: 18px;
+        word-spacing: 6px;
+    }
+    .body .buttons{
+    margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+    }
+    .body .buttons .get-to-know-us{
+        width: 140px;
+        height: 46px;
+        font-size: 15px;
+    }
+    .body .buttons .order-now{
+        width: 120px;
+        height: 46px;
+        font-size: 14px;
+    }
+    .what-we-do h1{
+        font-size: 32px;
+    }
+    .what-we-do p{
+        font-size: 18px;
+        position: relative;
+        top: 14px;
+    }
+    .what-we-make{
+        position: relative;
+        top: 120px;
+        left: 0;
+        text-align: center;
+    }.cards{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+        row-gap: 60px;
+    }
+    .reviews{
+        display: flex;
+        width: 80%;
+        row-gap: 80px;
+        flex-direction: column;
+    }
+    footer .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 80px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .offer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 60px;
+    }
+    .offer button{
+        align-self: center;
+    }
+    .copyright{
+        margin-bottom: 10px;
+        align-self: center;
+    }
+}
