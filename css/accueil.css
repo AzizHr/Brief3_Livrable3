@@ -10,7 +10,7 @@ body{
 }
 .background-image{
     width: 100%;
-    background-image: url('/images/background_image1.jpg');
+    background-image: url('../images/background_image1.jpg');
     background-size: contain;
     height: 600px;
 }
