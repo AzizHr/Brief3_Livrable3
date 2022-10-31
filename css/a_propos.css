@@ -233,3 +233,6 @@ footer .container .footer-top{
         justify-content: space-between;
     }
 }
+.show{
+    display: block;
+}

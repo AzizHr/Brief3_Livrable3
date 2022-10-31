@@ -251,3 +251,6 @@ footer .container .footer-top{
         align-self: center;
     }
 }
+.show{
+    display: block;
+}
