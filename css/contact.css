@@ -107,7 +107,6 @@ footer .container .footer-top{
     margin-top: 100px;
     justify-content: space-around;
     column-gap: 20px;
-    align-items: center;
 }
 .contact .contact-info{
     display: flex;
