@@ -246,7 +246,7 @@ footer .container .footer-top{
         right: 0;
         left: 0;
         display: block;
-        background-image: url('./images/background_image1.jpg');
+        background-image: url('../images/background_image1.jpg');
         background-size: contain;
         padding-top: 80px;
         display: none;
